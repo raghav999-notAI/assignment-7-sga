@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    RAGHAV PAUDEL — PERSONAL PORTFOLIO
+    Practical No. 05 | HTML + CSS with Generative AI Tools
+
+    PHOTO INSTRUCTION:
+    1. Rename your portrait/photo to: raghav-profile.jpg
+    2. Put it in the SAME folder as this index.html file.
+    3. The <img> tag below will automatically display it.
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio website of Raghav Paudel, B.Tech CSE student at Symbiosis Institute of Technology, Pune.">
+  <meta name="theme-color" content="#080b16">
+  <title>Raghav Paudel — CSE Student & Creative Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <div class="page-noise" aria-hidden="true"></div>
+  <div class="orb orb-one" aria-hidden="true"></div>
+  <div class="orb orb-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Raghav Paudel home">
+        <span class="brand-mark">RP</span>
+        <span class="brand-text">Raghav<span>.</span></span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#journey">Journey</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <a class="nav-cta" href="mailto:raghav.paudel@sitpune.edu.in">
+        <span>Let's connect</span>
+        <span class="arrow">↗</span>
+      </a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <!-- HERO -->
+    <section id="home" class="hero shell section">
+      <div class="hero-copy">
+        <div class="eyebrow">
+          <span class="status-dot"></span>
+          OPEN TO LEARN • BUILD • EXPLORE
+        </div>
+
+        <h1>
+          Hello, I'm
+          <span class="gradient-text">Raghav Paudel.</span>
+          <br>
+          I build my future,
+          <span class="outline-text">one idea at a time.</span>
+        </h1>
+
+        <p class="hero-lead">
+          18-year-old B.Tech Computer Science &amp; Engineering student at
+          <strong>Symbiosis Institute of Technology, Pune</strong>, originally from
+          <strong>Kathmandu, Nepal</strong>. I’m currently in Semester 1, turning
+          curiosity into code and ideas into useful digital experiences.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">
+            Explore my work
+            <span>↓</span>
+          </a>
+          <a class="button button-ghost" href="mailto:raghav.paudel@sitpune.edu.in">
+            Email me
+            <span>↗</span>
+          </a>
+        </div>
+
+        <div class="micro-proof">
+          <span>HTML</span>
+          <i></i>
+          <span>CSS</span>
+          <i></i>
+          <span>GENERATIVE AI</span>
+          <i></i>
+          <span>SEM 1</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="profile-frame">
+          <div class="frame-grid" aria-hidden="true"></div>
+          <div class="profile-glow" aria-hidden="true"></div>
+
+          <!-- Replace raghav-profile.jpg with your own image filename if desired. -->
+          <img
+            class="profile-photo"
+            src="raghav-profile.jpg"
+            alt="Portrait of Raghav Paudel"
+          >
+
+          <div class="photo-badge photo-badge-top">
+            <span class="badge-icon">✦</span>
+            <div>
+              <strong>CS + Creativity</strong>
+              <small>Learning in public</small>
+            </div>
+          </div>
+
+          <div class="photo-badge photo-badge-bottom">
+            <span class="badge-icon">⌁</span>
+            <div>
+              <strong>Kathmandu → Pune</strong>
+              <small>New chapter, same curiosity</small>
+            </div>
+          </div>
+
+          <div class="orbit orbit-a" aria-hidden="true"></div>
+          <div class="orbit orbit-b" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUICK STATS -->
+    <section class="stats shell" aria-label="Quick profile facts">
+      <article class="stat-card">
+        <span class="stat-number">18</span>
+        <div>
+          <strong>Years old</strong>
+          <small>Curious by default</small>
+        </div>
+      </article>
+
+      <article class="stat-card">
+        <span class="stat-number">01</span>
+        <div>
+          <strong>Semester</strong>
+          <small>B.Tech CSE journey</small>
+        </div>
+      </article>
+
+      <article class="stat-card">
+        <span class="stat-number">02+</span>
+        <div>
+          <strong>Project ideas</strong>
+          <small>Always iterating</small>
+        </div>
+      </article>
+
+      <article class="stat-card">
+        <span class="stat-number">∞</span>
+        <div>
+          <strong>Things to learn</strong>
+          <small>That’s the fun part</small>
+        </div>
+      </article>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section shell">
+      <div class="section-heading">
+        <span class="section-kicker">01 / ABOUT</span>
+        <h2>A little context <span class="muted">about me.</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <article class="glass-card story-card">
+          <div class="card-label">THE STORY</div>
+          <h3>From Kathmandu to Pune, into Computer Science.</h3>
+          <p>
+            I’m Raghav Paudel, a student from Kathmandu, Nepal, now pursuing a
+            B.Tech in Computer Science &amp; Engineering at Symbiosis Institute of
+            Technology, Pune. Semester 1 is about building strong foundations,
+            experimenting with technology, and discovering what kind of builder
+            I want to become.
+          </p>
+          <p>
+            This website is part of my practical work on creating a simple personal
+            website with HTML/CSS and Generative AI tools. I’m using it as more than
+            a submission: it is a small digital space for documenting my learning,
+            projects, goals, and progress.
+          </p>
+
+          <div class="quote-box">
+            <span class="quote-mark">“</span>
+            <p>Start simple. Make it useful. Keep improving.</p>
+            <span class="quote-author">— Raghav</span>
+          </div>
+        </article>
+
+        <div class="about-side">
+          <article class="glass-card info-card">
+            <div class="card-label">PROFILE</div>
+            <div class="info-list">
+              <div class="info-row">
+                <span>Name</span>
+                <strong>Raghav Paudel</strong>
+              </div>
+              <div class="info-row">
+                <span>From</span>
+                <strong>Kathmandu, Nepal</strong>
+              </div>
+              <div class="info-row">
+                <span>Studying</span>
+                <strong>B.Tech CSE</strong>
+              </div>
+              <div class="info-row">
+                <span>Institute</span>
+                <strong>Symbiosis Institute of Technology, Pune</strong>
+              </div>
+              <div class="info-row">
+                <span>Semester</span>
+                <strong>1st Semester</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="glass-card now-card">
+            <div class="card-label">RIGHT NOW</div>
+            <div class="now-line">
+              <span class="pulse-icon">●</span>
+              <div>
+                <strong>Learning the fundamentals</strong>
+                <p>Programming • Web • Problem solving • AI-assisted creation</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section id="journey" class="section shell">
+      <div class="section-heading">
+        <span class="section-kicker">02 / JOURNEY</span>
+        <h2>Where I am <span class="muted">right now.</span></h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item active">
+          <div class="timeline-marker">01</div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-date">2026 — PRESENT</span>
+            <h3>B.Tech Computer Science &amp; Engineering</h3>
+            <p>
+              Building a foundation in CSE at Symbiosis Institute of Technology,
+              Pune. Exploring programming, web development, computational thinking,
+              and the practical role of Generative AI.
+            </p>
+            <div class="chip-row">
+              <span class="chip">Semester 1</span>
+              <span class="chip">CSE</span>
+              <span class="chip">SIT Pune</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker">02</div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-date">PRACTICAL NO. 05</span>
+            <h3>Personal Website with HTML/CSS</h3>
+            <p>
+              Created a responsive personal portfolio using a separate HTML structure
+              and CSS stylesheet, customized with personal information and projects.
+              Generative AI is used as a development assistant for structure,
+              styling, and iteration.
+            </p>
+            <div class="chip-row">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+              <span class="chip">Generative AI</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker">03</div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-date">NEXT CHAPTER</span>
+            <h3>More projects, deeper fundamentals.</h3>
+            <p>
+              The goal is to turn small experiments into increasingly useful,
+              thoughtful projects while learning how software is designed, built,
+              tested, and shared.
+            </p>
+            <div class="chip-row">
+              <span class="chip">Build</span>
+              <span class="chip">Experiment</span>
+              <span class="chip">Improve</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section shell">
+      <div class="section-heading split-heading">
+        <div>
+          <span class="section-kicker">03 / PROJECTS</span>
+          <h2>Small builds. <span class="muted">Big curiosity.</span></h2>
+        </div>
+        <p class="heading-note">
+          A growing collection of class work, experiments, and project concepts.
+        </p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card project-featured">
+          <div class="project-topline">
+            <span class="project-index">01</span>
+            <span class="project-status status-live">CURRENT</span>
+          </div>
+
+          <div class="project-art art-portfolio" aria-hidden="true">
+            <div class="mini-window">
+              <span></span><span></span><span></span>
+              <div class="mini-lines">
+                <i></i><i></i><i></i>
+              </div>
+            </div>
+            <div class="mini-code">&lt;/&gt;</div>
+          </div>
+
+          <div class="project-body">
+            <div class="project-type">PRACTICAL • WEB DEVELOPMENT</div>
+            <h3>Personal Portfolio Website</h3>
+            <p>
+              A responsive personal website designed to present my profile,
+              academic journey, projects, skills, and contact information in one
+              focused digital experience.
+            </p>
+            <div class="chip-row">
+              <span class="chip">HTML5</span>
+              <span class="chip">CSS3</span>
+              <span class="chip">Responsive UI</span>
+              <span class="chip">GenAI</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-topline">
+            <span class="project-index">02</span>
+            <span class="project-status status-concept">CONCEPT</span>
+          </div>
+
+          <div class="project-art art-dashboard" aria-hidden="true">
+            <div class="dash-card dash-one"></div>
+            <div class="dash-card dash-two"></div>
+            <div class="dash-card dash-three"></div>
+            <div class="dash-chart"></div>
+          </div>
+
+          <div class="project-body">
+            <div class="project-type">CONCEPT • PRODUCTIVITY</div>
+            <h3>Semester 1 Learning Dashboard</h3>
+            <p>
+              A concept for organizing subjects, coding practice, assignment
+              deadlines, progress notes, and weekly goals in a single student-friendly
+              dashboard.
+            </p>
+            <div class="chip-row">
+              <span class="chip">UX Thinking</span>
+              <span class="chip">Planning</span>
+              <span class="chip">Student Tools</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card project-wide">
+          <div class="project-topline">
+            <span class="project-index">03</span>
+            <span class="project-status status-exploring">EXPLORING</span>
+          </div>
+
+          <div class="project-body">
+            <div class="project-type">LEARNING • PROGRAMMING</div>
+            <h3>CSE Foundations Lab</h3>
+            <p>
+              A growing learning space for first-semester programming exercises,
+              problem-solving patterns, web experiments, and notes that become
+              more refined with every iteration.
+            </p>
+            <div class="project-bottom">
+              <div class="chip-row">
+                <span class="chip">C Programming</span>
+                <span class="chip">Problem Solving</span>
+                <span class="chip">Web Basics</span>
+              </div>
+              <span class="sparkle" aria-hidden="true">✦</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section shell">
+      <div class="section-heading">
+        <span class="section-kicker">04 / SKILLS</span>
+        <h2>What I’m <span class="muted">building up.</span></h2>
+      </div>
+
+      <div class="skills-layout">
+        <article class="glass-card skills-card">
+          <div class="card-label">CURRENT TOOLKIT</div>
+
+          <div class="skill-item">
+            <div class="skill-meta"><span>HTML</span><span>Foundation</span></div>
+            <div class="skill-track"><span style="--level: 82%"></span></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-meta"><span>CSS</span><span>Developing</span></div>
+            <div class="skill-track"><span style="--level: 78%"></span></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-meta"><span>Problem Solving</span><span>Growing</span></div>
+            <div class="skill-track"><span style="--level: 68%"></span></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-meta"><span>Generative AI</span><span>Exploring</span></div>
+            <div class="skill-track"><span style="--level: 74%"></span></div>
+          </div>
+
+          <p class="skill-note">
+            These are learning-progress indicators, not formal certifications or
+            professional proficiency scores.
+          </p>
+        </article>
+
+        <div class="skill-orbit-card glass-card">
+          <div class="orbit-core">RP</div>
+          <span class="float-tag tag-html">HTML</span>
+          <span class="float-tag tag-css">CSS</span>
+          <span class="float-tag tag-cse">CSE</span>
+          <span class="float-tag tag-ai">AI</span>
+          <span class="float-tag tag-build">BUILD</span>
+          <div class="orbit-ring ring-one"></div>
+          <div class="orbit-ring ring-two"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACADEMIC INFO -->
+    <section class="section shell">
+      <div class="section-heading">
+        <span class="section-kicker">05 / ACADEMIC SNAPSHOT</span>
+        <h2>The details <span class="muted">behind this assignment.</span></h2>
+      </div>
+
+      <div class="academic-grid">
+        <article class="academic-item">
+          <span>INSTITUTE</span>
+          <strong>Symbiosis Institute of Technology, Pune</strong>
+        </article>
+        <article class="academic-item">
+          <span>PROGRAM</span>
+          <strong>B.Tech — Computer Science &amp; Engineering</strong>
+        </article>
+        <article class="academic-item">
+          <span>BATCH</span>
+          <strong>CSE • B-3</strong>
+        </article>
+        <article class="academic-item">
+          <span>ACADEMIC YEAR</span>
+          <strong>2026 — 2030</strong>
+        </article>
+        <article class="academic-item">
+          <span>SEMESTER</span>
+          <strong>Semester 1</strong>
+        </article>
+        <article class="academic-item">
+          <span>PRACTICAL</span>
+          <strong>No. 05 — Personal Website</strong>
+        </article>
+        <article class="academic-item">
+          <span>PERFORMANCE DATE</span>
+          <strong>23 September 2026</strong>
+        </article>
+        <article class="academic-item">
+          <span>PRN</span>
+          <strong>26070122158</strong>
+        </article>
+      </div>
+    </section>
+
+    <!-- ASSIGNMENT FOCUS -->
+    <section id="assignment" class="section shell">
+      <div class="section-heading split-heading">
+        <div>
+          <span class="section-kicker">06 / ASSIGNMENT FOCUS</span>
+          <h2>Learning through <span class="muted">building.</span></h2>
+        </div>
+        <p class="heading-note">
+          The practical combines web fundamentals with Generative AI-assisted development.
+        </p>
+      </div>
+
+      <div class="assignment-grid">
+        <article class="glass-card assignment-main">
+          <div class="card-label">OBJECTIVE</div>
+          <h3>Understand how a personal website is created with HTML/CSS and AI assistance.</h3>
+          <p>
+            This practical explores how a personal website can showcase skills, projects,
+            and achievements while using Generative AI to accelerate structure, layout,
+            styling, and iteration.
+          </p>
+        </article>
+
+        <article class="glass-card assignment-list-card">
+          <div class="card-label">KEY CONCEPTS</div>
+          <div class="concept-list">
+            <div><span>01</span><strong>HTML</strong><small>Structure &amp; content</small></div>
+            <div><span>02</span><strong>CSS</strong><small>Styling &amp; visual appearance</small></div>
+            <div><span>03</span><strong>Generative AI</strong><small>Code, palettes &amp; layouts</small></div>
+          </div>
+        </article>
+
+        <article class="glass-card workflow-card">
+          <div class="card-label">PRACTICAL WORKFLOW</div>
+          <div class="workflow-grid">
+            <span><b>01</b>Generate a base portfolio</span>
+            <span><b>02</b>Customize identity + photo</span>
+            <span><b>03</b>Add at least two projects</span>
+            <span><b>04</b>Personalize CSS</span>
+            <span><b>05</b>Host on GitHub Pages / Netlify</span>
+            <span><b>06</b>Add published link + screenshots</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section section shell">
+      <div class="contact-panel">
+        <div class="contact-copy">
+          <span class="section-kicker">07 / CONTACT</span>
+          <h2>Have an idea?<br><span>Let’s start a conversation.</span></h2>
+          <p>
+            For academic collaboration, project discussions, feedback, or a simple
+            hello, reach out by email.
+          </p>
+        </div>
+
+        <a class="email-card" href="mailto:raghav.paudel@sitpune.edu.in">
+          <div>
+            <small>WRITE TO ME</small>
+            <strong>raghav.paudel@sitpune.edu.in</strong>
+          </div>
+          <span class="email-arrow">↗</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <div class="footer-brand">
+      <span class="brand-mark small">RP</span>
+      <div>
+        <strong>Raghav Paudel</strong>
+        <small>Computer Science &amp; Engineering • SIT Pune</small>
+      </div>
+    </div>
+
+    <div class="footer-note">
+      Designed with HTML + CSS<br>
+      Built with Generative AI assistance
+    </div>
+
+    <a class="back-top" href="#home" aria-label="Back to top">↑</a>
+  </footer>
+</body>
+</html>
